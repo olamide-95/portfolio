@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+}
+
+@font-face {
+    font-family: 'YesevaOneRegular';
+    src: url('fonts/YesevaOneRegular.eot');
+    src: url('fonts/YesevaOneRegular.eot') format('embedded-opentype'),
+         url('fonts/YesevaOneRegular.woff2') format('woff2'),
+         url('fonts/YesevaOneRegular.woff') format('woff'),
+         url('fonts/YesevaOneRegular.ttf') format('truetype'),
+         url('fonts/YesevaOneRegular.svg#YesevaOneRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'KumbhSansVariableFont_YOPQ_wght';
+    src: url('fonts/KumbhSansVariableFont_YOPQ_wght.eot');
+    src: url('fonts/KumbhSansVariableFont_YOPQ_wght.eot') format('embedded-opentype'),
+         url('fonts/KumbhSansVariableFont_YOPQ_wght.woff2') format('woff2'),
+         url('fonts/KumbhSansVariableFont_YOPQ_wght.woff') format('woff'),
+         url('fonts/KumbhSansVariableFont_YOPQ_wght.ttf') format('truetype'),
+         url('fonts/KumbhSansVariableFont_YOPQ_wght.svg#KumbhSansVariableFont_YOPQ_wght') format('svg');
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.bio {
+    background: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+h1 {
+    font-family: "Yeseva One", cursive;
+    font-size: 100px;
+    margin-bottom: 2rem;
+    color:#58465D;
+}
+
+p {
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 30px;
+    margin-bottom: 4rem;
+}
+
+span {
+    border-bottom: 1px solid #492C4E;
+    font-family: "Kumbh Sans", sans-serif;
+    font-style:;
+}
+
+.projects {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.projpics {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+}
+
+/*figure {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+}*/
+
+.projlinks {
+    display: flex;
+    clear: both;
+} 
+
+
+.buttons {
+    display: flex;
+    font-family: "Yeseva One", cursive;
+    text-decoration: none;
+    background-color: white;
+    font-size: 25px;
+    gap: 2rem;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.buttons a {
+    color:#58465D;
+}
+
+a {
+    color: black;
+    text-transform: capitalize;
+    font-size: 24px;
+    display: block;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+img {
+    width: 40%;
+    height: auto;
+}
+
