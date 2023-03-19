@@ -29,7 +29,6 @@ body, html {
 }
 
 main {
-    /*width: 80%;*/
     margin: 0 auto;
 }
 
@@ -58,7 +57,6 @@ p {
 span {
     border-bottom: 1px solid #492C4E;
     font-family: "Kumbh Sans", sans-serif;
-    font-style:;
 }
 
 .projects {
